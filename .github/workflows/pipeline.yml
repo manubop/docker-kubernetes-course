@@ -33,7 +33,7 @@ jobs:
       uses: Azure/aks-set-context@v1
       with:
         # Azure credentials i.e. output of `az ad sp create-for-rbac --sdk-auth`
-        creds: ${{ secrets.AZURE_CLUSTER_KEY }}# default is 
+        creds: ${{ secrets.AZURE_CLUSTER_KEY }} # default is 
         # Resource Group Name
         resource-group: refinitiv-rg # optional, default is 
         # AKS Cluster Name
